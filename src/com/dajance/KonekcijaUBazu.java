@@ -67,7 +67,7 @@ public class KonekcijaUBazu {
          con.close();
 	}
 	
-		public void slobodniDatumi (Map<Integer, Integer> lista) throws SQLException {
+		public void slobodniDatumi (ArrayList<Integer> lista) throws SQLException {
 			
 			
 			String query= "select slobodnidatumi, cijena from maliap";

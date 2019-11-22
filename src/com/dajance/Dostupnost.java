@@ -23,7 +23,7 @@ public class Dostupnost extends HttpServlet  {
 	
 	public void service (HttpServletRequest req, HttpServletResponse res) throws IOException {
 		
-		ArrayList<Integer> slobodniDatumi = new ArrayList<Integer>();
+		ArrayList<Integer> slobodniDatumi1 = new ArrayList<Integer>();
 		ArrayList<Integer> zauzetiDatumi = new ArrayList<Integer>();
 		
 		
@@ -45,7 +45,7 @@ public class Dostupnost extends HttpServlet  {
 		
 		KonekcijaUBazu prva = new KonekcijaUBazu();
 		try {
-			prva.slobodniDatumi(slobodniDatumi);
+			prva.slobodniDatumi(slobodniDatumi1);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -53,9 +53,9 @@ public class Dostupnost extends HttpServlet  {
 		
 		BookingService provjera = new BookingService();
 		
-		provjera.provjeraDostupnisti(dolazakZaProvjeru, odlazakZaProvjeru, slobodniDatumi, zauzetiDatumi);
+		provjera.provjeraDostupnisti(dolazakZaProvjeru, odlazakZaProvjeru, slobodniDatumi1, zauzetiDatumi);
 		
-		for (int k : slobodniDatumi) {
+		for (int k : slobodniDatumi1) {
 			System.out.println("Slobodni datumi su: " + k); 
 			
 		}
