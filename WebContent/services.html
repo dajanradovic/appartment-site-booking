@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Luxe &mdash; 100% Free Fully Responsive HTML5 Template by
+	FREEHTML5.co</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
+<meta name="keywords"
+	content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+<meta name="author" content="FREEHTML5.CO" />
+
+<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FREEHTML5.CO
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+<!-- Facebook and Twitter integration -->
+<meta property="og:title" content="" />
+<meta property="og:image" content="" />
+<meta property="og:url" content="" />
+<meta property="og:site_name" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:title" content="" />
+<meta name="twitter:image" content="" />
+<meta name="twitter:url" content="" />
+<meta name="twitter:card" content="" />
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+<link rel="shortcut icon" href="favicon.ico">
+<!-- <link href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700italic,900,700,900italic' rel='stylesheet' type='text/css'> -->
+
+<!-- Stylesheets -->
+<!-- Dropdown Menu -->
+<link rel="stylesheet" href="css/superfish.css">
+<!-- Owl Slider -->
+<!-- <link rel="stylesheet" href="css/owl.carousel.css"> -->
+<!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
+<!-- Date Picker -->
+<link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+<!-- CS Select -->
+<link rel="stylesheet" href="css/cs-select.css">
+<link rel="stylesheet" href="css/cs-skin-border.css">
+
+<!-- Themify Icons -->
+<link rel="stylesheet" href="css/themify-icons.css">
+<!-- Flat Icon -->
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- Icomoon -->
+<link rel="stylesheet" href="css/icomoon.css">
+<!-- Flexslider  -->
+<link rel="stylesheet" href="css/flexslider.css">
+
+<!-- Style -->
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Modernizr JS -->
+<script src="js/modernizr-2.6.2.min.js"></script>
+<!-- FOR IE9 below -->
+<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+<style>
+
+.kliknuto{
+
+background-color: red;
+color: black;
+
+}
+
+.odlazak{
+
+	background-color: blue;
+	color: white;
+}
+
+.slikica{
+
+	background-color: #d7fcf7;
+	
+}
+
+
+#bukiraj:hover{
+
+	background-color: orange;
+	text: black;
+}
+
+
+
+
+
+
+
+</style>
+</head>
+<body>
+	<div id="fh5co-wrapper">
+		<div id="fh5co-page">
+			<div id="fh5co-header">
+				<header id="fh5co-header-section">
+					<div class="container">
+						<div class="nav-header">
+							<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+							<h1 id="fh5co-logo">
+								<a href="index.html">Apartments Radovic</a>
+							</h1>
+							<nav id="fh5co-menu-wrap" role="navigation">
+								<ul class="sf-menu" id="fh5co-primary-menu">
+									<li><a href="index.html">Home</a></li>
+									<li><a class="active" href="hotel.html"
+										class="fh5co-sub-ddown">Apartments</a>
+										<ul class="fh5co-sub-menu">
+											<li><a href="#">Apartment 4+0</a></li>
+											<li><a href="#">Apartment Studio 2+0</a></li>
+										</ul></li>
+
+									<li><a href="guestmanagement.html">Guest management</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</header>
+
+			</div>
+			<!-- end:fh5co-header -->
+			<div class="fh5co-parallax"
+				style="background-image: url(images/slider1.jpg);"
+				data-stellar-background-ratio="0.5">
+				<div class="overlay"></div>
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 text-center fh5co-table">
+							<div class="fh5co-intro fh5co-table-cell">
+								<h1 class="text-center">We Offer Services</h1>
+								<p>
+									Made with love by the fine folks at <a
+										href="http://freehtml5.co">FreeHTML5.co</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+									
+			<div class="container">
+				<div class="row" style="position: relative;">
+					<div class="col-md-6" style="background-color: white; border-radius: 2px; padding-top:20px;">
+						<label style="color: black;">List of available dates:</label>
+						
+						<select name="apatmani" class="selectpicker">
+							<option value="disabled">Select apartment</option>
+							<option value="studio" >Studio 2+0 </option>
+							<option value="veliki">Apartment 4+0</option>
+						</select>
+
+						<table class="table" id="tablica" style="margin-top: 30px;">
+							<thead>
+								<tr id="nazivApartmana" >
+									
+																	</tr>
+									
+							</thead>
+							
+							<tbody>
+							
+							
+							
+							
+							</tbody>
+
+
+
+						</table>
+					</div>
+
+					<div class="col-md-6" style="padding-top:20px; ">
+						<div id="floatingDiv">
+
+								<label id="dolazakRez" >Dolazak:</label><span id="spandol" style="padding-left: 30px;">Pick your date</span><br>
+								<label id="odlazakRez">Odlazak:</label><span id="spanodl" style="padding-left:30px;">PIck your date</span>
+								<hr>
+								<span id="rez"></span><br><br>
+								<button id="bukiraj" style="display: none; border: 1.5px solid black; border-radius: 5px;">Book now!</button>
+								
+								
+								
+
+
+
+						</div>
+						
+						
+						
+					</div>
+				</div>
+			</div>
+
+			<footer id="footer" class="fh5co-bg-color">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="copyright">
+								<p>
+									<small>&copy; 2016 Free HTML5 Template. <br> All
+										Rights Reserved. <br> Designed by <a
+										href="http://freehtml5.co" target="_blank">FreeHTML5.co</a> <br>
+										Demo Images: <a href="http://unsplash.com/" target="_blank">Unsplash</a></small>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-8">
+							<div class="row">
+								<div class="col-md-6">
+									<h3>Company</h3>
+									<ul class="link">
+										<li><a href="#">About us</a></li>
+										<li><a href="#">Apartments</a></li>
+										<li><a href="#">Guest management page</a></li>
+										<li><a href="#">Contact Us</a></li>
+									</ul>
+								</div>
+
+
+								<div class="col-md-6">
+									<ul class="social-icons">
+										<li><a href="#"><i class="icon-twitter-with-circle"></i></a>
+											<a href="#"><i class="icon-facebook-with-circle"></i></a> <a
+											href="#"><i class="icon-instagram-with-circle"></i></a> <a
+											href="#"><i class="icon-linkedin-with-circle"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+			</footer>
+
+		</div>
+		<!-- END fh5co-page -->
+
+	</div>
+	<!-- END fh5co-wrapper -->
+
+	<!-- Javascripts -->
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<!-- Dropdown Menu -->
+	<script src="js/hoverIntent.js"></script>
+	<script src="js/superfish.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Owl Slider -->
+	<!-- // <script src="js/owl.carousel.min.js"></script> -->
+	<!-- Date Picker -->
+	<script src="js/bootstrap-datepicker.min.js"></script>
+	<!-- CS Select -->
+	<script src="js/classie.js"></script>
+	<script src="js/selectFx.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<script src="js/custom.js"></script>
+<script>
+
+
+$(document).ready(function(){
+
+
+$(window).on('scroll', function() {
+
+var y_scroll_pos = window.pageYOffset;
+var scroll_pos_test = 650;   // set to whatever you want it to be
+
+if(y_scroll_pos > scroll_pos_test) {
+
+	$('#floatingDiv').css({
+		 'position' : 'fixed',
+		 'top':5
+		 });
+}
+
+		 else {
+		  $('#floatingDiv').css({
+		 'position' : 'relative',
+		 'top': 0});
+
+	}			 
+  
+	
+	
+
+
+
+
+ 
+
+
+});
+  
+/*
+var floatingDiv = $('#floatingDiv');
+var floatingDivPosition = floatingDiv.position();
+alert(floatingDivPosition.top);
+alert ($(window).scrollTop());
+$(window).scroll(function(){
+var scrollBarPosition = $(window).scrollTop();
+ if (scrollBarPosition <= floatingDivPosition.top){
+
+	
+	floatingDiv.css({
+		 'position' : 'relative'
+		 });
+	
+ 				}
+
+	else {
+		floatingDiv.css({
+		 'position' : 'fixed',
+		 'top': 0});
+
+	}			 
+
+
+ 
+
+});*/
+
+$("select").change(function(){
+	$('td').remove();
+	var selectedValue = $(this).val();
+	if (selectedValue=="veliki")
+
+	{
+
+		$('#nazivApartmana').html('<th >Apartment 4+0<span style="padding-left: 80px;"> <span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span></span></th>');
+
+		$.ajax({
+	url: 'ispisdostupnihdatumavelikiap',
+	dataType: "json",
+	method: "GET",
+	//data: data,
+	success: function (data){
+		alert (data.buffer);
+		
+		
+				
+		var obj = JSON.parse(data.buffer);
+		
+		
+		var employeeTable = $('#tablica tbody');
+		 
+		/*	  for (var i=0; i<obj.length;i++){
+
+					
+				  
+				  if (obj[i]==0){
+					  
+					  continue;
+				  }
+				  
+				  else{
+								
+			employeeTable.append('<tr style="font-size: 14px;"><td><button class="slobodni" >' + obj[i] + '</button></td><td>' 
+				+ 'prazno' + '</td></tr><br/>');}}*/
+			 
+				$.each(obj, function (key, value){
+
+					if (key==0){
+
+						return ;}
+					
+					else{
+				
+				
+				var lijepiDatum= key.substring(6,8) + '.'+ key.substring(4,6) + '.' + key.substring(0,4);
+				employeeTable.append('<tr style="font-size: 14px;"><td><button class="slobodni" >' + lijepiDatum + '</button><span style="padding-left: 50px; font-weight:bold;">'+ value + '€' + '</span>' + '</button></td></tr></br>' );
+				
+				}
+
+				
+
+				});
+					
+				var datumId=0;	
+				$('button').each(function(){
+					$(this).attr('data-id', datumId+=1);
+					console.log(datumId);		
+					});
+		
+				
+
+		
+	},
+
+	error: function (err){
+
+		alert(err);
+	}
+
+
+
+});
+
+
+	
+	}
+
+else{
+
+	$('#nazivApartmana').html('<th >Studio<span style="padding-left: 80px;"> <span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span></span></th>');
+$.ajax({
+	url: 'ispisdostupnihdatuma',
+	dataType: "json",
+	method: "GET",
+	//data: data,
+	success: function (data){
+		alert (data.buffer);
+		
+		
+				
+		var obj = JSON.parse(data.buffer);
+		
+		
+		var employeeTable = $('#tablica tbody');
+		 
+		/*	  for (var i=0; i<obj.length;i++){
+
+					
+				  
+				  if (obj[i]==0){
+					  
+					  continue;
+				  }
+				  
+				  else{
+								
+			employeeTable.append('<tr style="font-size: 14px;"><td><button class="slobodni" >' + obj[i] + '</button></td><td>' 
+				+ 'prazno' + '</td></tr><br/>');}}*/
+			 
+				$.each(obj, function (key, value){
+
+					if (key==0){
+
+						return ;}
+					
+					else{
+				var lijepiDatum= key.substring(6,8) + '.'+ key.substring(4,6) + '.' + key.substring(0,4);
+				employeeTable.append('<tr style="font-size: 14px;"><td><button class="slobodni" >' + lijepiDatum + '</button><span style="padding-left: 50px; font-weight:bold;">'+ value + '€' + '</span>' + '</button></td></tr></br>' 
+				);}
+				
+					
+				});
+		
+				var datumId=0;	
+				$('button').each(function(){
+					$(this).attr('data-id', datumId+=1);
+					});
+
+		
+	},
+
+	error: function (err){
+
+		alert(err);
+	}
+
+
+
+});
+
+				
+}
+});
+
+
+var a = 0;
+var cijenaNaOdl = '';
+var z='';
+
+$('#tablica').on('click', 'button', function(){
+	
+	if($(this).hasClass('kliknuto') || $(this).hasClass('odlazak')){
+							alert ('datum je vec izabran');
+							return;}
+							
+
+	if (a===2 && $(this).hasClass('slobodni')){
+		$(this).off('click');
+		alert ('vec ste izabrali dolazak i odlazak');}
+
+
+	
+	else {
+	var b='';
+	var c='';
+	if (a===0){
+
+
+				
+
+					
+							$(this).after('<label id="prvi" style="margin-left: 50px;">Your arrival date</label>');
+							$(this).before('<span id="oznaka1" class="glyphicon glyphicon-remove" style="color: black; cursor: pointer; padding-right: 15px;"></span>');
+							$(this).addClass('kliknuto');
+							$(this).closest('td').css('background-color', 'yellow');
+							$(this).removeClass('slobodni');
+							$(this).attr('id', 'dol');
+							z = $(this).siblings('span').text().substring(0,2);
+							
+							
+							
+							a=1;}
+
+
+
+							else {
+			
+										$(this).after('<label id="drugi" style="margin-left: 50px;">Your departure date</label>');
+										$(this).addClass('odlazak');
+										$(this).before('<span id="oznaka2" class="glyphicon glyphicon-remove" style="color: black; cursor: pointer; padding-right: 15px;"></span>');
+											$(this).removeClass('slobodni');
+											$(this).closest('td').css('background-color', 'yellow');
+											$(this).attr('id', 'odl');
+											cijenaNaOdl = $(this).siblings('span').text();
+											$(this).siblings('span').empty();
+											a=2;
+											
+											b=$('#dol').data('id') + 1;
+
+											alert(b);
+										//	b= parseInt ($('#dol').text().substring(6,10) + $('#dol').text().substring(3,5) + $('#dol').text().substring(0,2)) + 1;
+										//	alert(b);
+											
+										//	c= alert(c);
+
+											c=$('#odl').data('id');
+											alert(c);
+											var zbrojNocenjaIzmedu=parseInt(z);
+											$('button').each(function(){
+
+											for (var i=b; i<c; i++){
+
+														//if //($(this).text().substring(6,10) + $(this).text().substring(3,5) + $(this).text().substring(0,2) == i)
+															if($(this).data('id') == i){
+															$(this).closest('td').addClass('slikica');
+															$(this).css('background-color', '#d7fcf7');
+															$(this).css('color', 'black');
+															v = $(this).siblings('span').text().substring(0,2);
+															
+															zbrojNocenjaIzmedu+= parseInt(v);
+															
+																					}
+											
+
+																}
+
+											
+												});	
+														
+												var e= parseInt ($('#odl').data('id')) - parseInt ($('#dol').data('id'));
+
+												$('#spandol').text($('#dol').text());
+												$('#spanodl').text($('#odl').text());
+
+											
+												
+												
+												$('#rez').html('Price for ' + e + ' nights is: <strong>' +  zbrojNocenjaIzmedu +'</strong>€'); 											
+												$('#bukiraj').css('display', '');
+
+														
+
+												
+							}
+	
+						}
+	
+
+		
+			
+			
+			
+					
+
+
+
+			});
+
+
+			
+$('#tablica').on('click', '#oznaka1', function(){
+	$('#dol').removeClass('kliknuto');
+	$('#dol').addClass('slobodni');
+	$('#prvi').remove();
+	$('#oznaka1').remove();
+	$('#dol').closest('td').css('background-color', '');
+
+	$('#odl').removeClass('odlazak');
+	$('#odl').addClass('slobodni');
+	$('#drugi').remove();
+	$('#oznaka2').remove();
+	$('#odl').closest('td').css('background-color', '');
+	$('#odl').siblings('span').text(cijenaNaOdl);
+	a=0;
+
+	$('#rez').html('Price for ?? nights is: ?? - <strong> pick your date</strong>');
+	
+	//var b= parseInt ($('#dol').text().substring(6,10) + $('#dol').text().substring(3,5) + $('#dol').text().substring(0,2)) + 1;
+	//var c= parseInt ($('#odl').text().substring(6,10) + $('#odl').text().substring(3,5) + $('#odl').text().substring(0,2));
+	var b=parseInt($('#dol').data('id')) + 1;
+	var c=parseInt($('#odl').data('id'));										
+
+	$('button').each(function(){
+
+	for (var i=b; i<c; i++){
+
+			//if //($(this).text().substring(6,10) + $(this).text().substring(3,5) + $(this).text().substring(0,2) == i){
+			 if($(this).data('id') == i){
+			$(this).closest('td').removeClass('slikica');
+			$(this).css('background-color', '');
+			$(this).css('color', '');
+
+							}
+
+				}
+
+});	
+$('#dol').removeAttr('id');
+$('#odl').removeAttr('id');
+
+});
+
+$('#tablica').on('click', '#oznaka2', function(){
+	$('#odl').removeClass('odlazak');
+	$('#odl').addClass('slobodni');
+	$('#drugi').remove();
+	$('#oznaka2').remove();
+	$('#odl').closest('td').css('background-color', '');
+	$('#odl').siblings('span').text(cijenaNaOdl);
+	a=1;
+
+	//var b= parseInt ($('#dol').text().substring(6,10) + $('#dol').text().substring(3,5) + $('#dol').text().substring(0,2)) + 1;
+	//var c= parseInt ($('#odl').text().substring(6,10) + $('#odl').text().substring(3,5) + $('#odl').text().substring(0,2));
+	var b=parseInt($('#dol').data('id')) + 1;
+	var c=parseInt($('#odl').data('id'));											
+	
+	$('button').each(function(){
+
+	for (var i=b; i<c; i++){
+
+		//	if ($(this).text().substring(6,10) + $(this).text().substring(3,5) + $(this).text().substring(0,2) == i){
+			if($(this).data('id') == i){
+			$(this).closest('td').removeClass('slikica');
+			$(this).css('background-color', '');
+			$(this).css('color', '');
+
+							}
+
+				}
+});		
+$('#odl').removeAttr('id');
+$('#odl').removeAttr('id');
+
+
+});
+
+});
+
+
+
+</script>
+	
+</body>
+</html>
